@@ -1,4 +1,6 @@
 kona-redis
+-------
+
 
 a [then-redis](https://github.com/mjackson/then-redis) client mixin for the [kona](https://github.com/jbielick/kona) application framework.
 
@@ -23,7 +25,7 @@ Now you can use redis in your controller action as simply as:
 
   vote: function* () {
     yield this.redis.incr('votes');
-    yield this.render({json: {votes: }})
+    yield this.render({json: {votes: yield this.redis.get('votes')}});
   }
 
 ```
