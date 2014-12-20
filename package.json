@@ -1,12 +1,28 @@
 {
   "name": "kona-redis",
   "version": "0.1.0",
+  "repository": "https://github.com/jbielick/kona-redis.git",
   "description": "redis mixin for the kona application framework",
   "main": "index.js",
-  "keywords": ["redis", "then-redis", "kona", "koa", "generators", "async"],
+  "keywords": [
+    "redis",
+    "then-redis",
+    "kona",
+    "koa",
+    "generators",
+    "async"
+  ],
   "scripts": {
     "test": "make test"
   },
+  "engines": {
+    "node": ">=0.11.0"
+  },
+  "engineStrict": true,
   "author": "Josh Bielick <jbielick@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "delegates": "^0.1.0",
+    "then-redis": "^1.1.0"
+  }
 }
