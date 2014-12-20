@@ -1,0 +1,12 @@
+{
+  "name": "kona-redis",
+  "version": "0.1.0",
+  "description": "redis mixin for the kona application framework",
+  "main": "index.js",
+  "keywords": ["redis", "then-redis", "kona", "koa", "generators", "async"],
+  "scripts": {
+    "test": "make test"
+  },
+  "author": "Josh Bielick <jbielick@gmail.com>",
+  "license": "MIT"
+}
