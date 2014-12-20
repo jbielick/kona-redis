@@ -1,6 +1,6 @@
 {
   "name": "kona-redis",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "repository": "https://github.com/jbielick/kona-redis.git",
   "description": "redis mixin for the kona application framework",
   "main": "index.js",
