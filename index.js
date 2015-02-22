@@ -15,7 +15,7 @@ module.exports = {
       .access('redis')
   },
 
-  shutdown: function() {
+  shutdown: function* () {
     client.end();
   }
 
